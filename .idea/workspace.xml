@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="Path Module end">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="mkdir() with promises end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FS Module/promiseApi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FS Module/promiseApi/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +81,7 @@
       <updated>1746629752762</updated>
       <workItem from="1746629757242" duration="3683000" />
       <workItem from="1746633566313" duration="4943000" />
-      <workItem from="1746638593400" duration="4959000" />
+      <workItem from="1746638593400" duration="6296000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -130,7 +131,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746639850318</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="mkdir() with promises end">
+      <option name="closed" value="true" />
+      <created>1746644343894</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1746644343894</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -143,6 +152,7 @@
     <MESSAGE value="Modules - require end" />
     <MESSAGE value="Modules - import and export end" />
     <MESSAGE value="Path Module end" />
-    <option name="LAST_COMMIT_MESSAGE" value="Path Module end" />
+    <MESSAGE value="mkdir() with promises end" />
+    <option name="LAST_COMMIT_MESSAGE" value="mkdir() with promises end" />
   </component>
 </project>
