@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="readFile () with some examples">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="appendFile() adds extra data to existing file">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FS Module/promiseApi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FS Module/promiseApi/index.js" afterDir="false" />
     </list>
@@ -81,7 +81,7 @@
       <updated>1746629752762</updated>
       <workItem from="1746629757242" duration="3683000" />
       <workItem from="1746633566313" duration="4943000" />
-      <workItem from="1746638593400" duration="14795000" />
+      <workItem from="1746638593400" duration="15623000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -187,7 +187,23 @@
       <option name="project" value="LOCAL" />
       <updated>1746652676982</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="readFile () with ascii">
+      <option name="closed" value="true" />
+      <created>1746654275573</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1746654275573</updated>
+    </task>
+    <task id="LOCAL-00015" summary="appendFile() adds extra data to existing file">
+      <option name="closed" value="true" />
+      <created>1746654511016</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1746654511016</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +224,8 @@
     <MESSAGE value="writeFile() end" />
     <MESSAGE value="readdir() end" />
     <MESSAGE value="readFile () with some examples" />
-    <option name="LAST_COMMIT_MESSAGE" value="readFile () with some examples" />
+    <MESSAGE value="readFile () with ascii" />
+    <MESSAGE value="appendFile() adds extra data to existing file" />
+    <option name="LAST_COMMIT_MESSAGE" value="appendFile() adds extra data to existing file" />
   </component>
 </project>

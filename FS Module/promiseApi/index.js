@@ -1,4 +1,5 @@
 import * as fs from "fs/promises"
+import * as constants from "node:constants";
 // const fs  = require('node:fs').promises
 // try{
 //     await fs.writeFile("c:\\nodejs\\home\\text.txt",'hello man',"utf-8")
@@ -28,9 +29,15 @@ import * as fs from "fs/promises"
 // }catch(err){
 //     console.log(err)
 // }
+// try{
+//     await fs.appendFile('c:\\nodejs\\hello.text', 'hello guyssss','utf8')
+//     console.log('extra data added')
+// }catch(err){
+//     console.log(err)
+// }
 try{
-    await fs.appendFile('c:\\nodejs\\hello.text', 'hello guyssss','utf8')
-    console.log('extra data added')
+    await fs.copyFile("c:\\nodejs\\hello.text",'c:\\nodejs\\text\\text.text',constants.COPYFILE_EXCL)
+    console.log('Asynchronously copies src to des')
 }catch(err){
     console.log(err)
 }
