@@ -29,7 +29,7 @@ import * as fs from "fs/promises"
 //     console.log(err)
 // }
 try{
-    const data = await fs.readFile('c:\\nodejs\\hello.text', 'utf8')
+    const data = await fs.readFile('c:\\nodejs\\hello.text', 'ascii')
     console.log(data)
 }catch(err){
     console.log(err)
