@@ -1,8 +1,8 @@
 import * as fs from "fs/promises"
 // const fs  = require('node:fs').promises
 try{
-    await fs.rm("c:\\nodejs\\home",{recursive:true,force:true})
-    console.log('nodejs folder deleted ')
+    await fs.writeFile("c:\\nodejs\\home\\text.txt",'hello man',"utf-8")
+    console.log('nodejs file created')
 }catch(err){
     console.log(err)
 }
@@ -10,3 +10,6 @@ try{
 // error like the dir is not empty
 // force true when u try to delete like it twice the second it will give an error like there is no such file exist
 // so to ignore that u have force true
+
+
+// todo delete the non-empty folder on command prompt u can use rmdir /s /q home
