@@ -29,8 +29,8 @@ import * as fs from "fs/promises"
 //     console.log(err)
 // }
 try{
-    const data = await fs.readFile('c:\\nodejs\\hello.text', 'ascii')
-    console.log(data)
+    await fs.appendFile('c:\\nodejs\\hello.text', 'hello guyssss','utf8')
+    console.log('extra data added')
 }catch(err){
     console.log(err)
 }
