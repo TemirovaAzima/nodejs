@@ -13,12 +13,24 @@ import * as fs from "fs/promises"
 // todo delete the non-empty folder on command prompt u can use rmdir /s /q home
 
 
+// try{
+//     const files = await fs.readdir('c:\\Users\\azima\\OneDrive',"utf-8");
+//     for(const file of files){
+//         console.log(file)
+//     }
+//     console.log(files)
+// }catch(err){
+//     console.log(err)
+// }
+// try{
+//     await fs.writeFile('c:\\nodejs\\hello.text','hello world','utf8');
+//     console.log('file created')
+// }catch(err){
+//     console.log(err)
+// }
 try{
-    const files = await fs.readdir('c:\\Users\\azima\\OneDrive',"utf-8");
-    for(const file of files){
-        console.log(file)
-    }
-    console.log(files)
+    const data = await fs.readFile('c:\\nodejs\\hello.text', 'utf8')
+    console.log(data)
 }catch(err){
     console.log(err)
 }

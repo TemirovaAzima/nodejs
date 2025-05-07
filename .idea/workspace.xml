@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="writeFile() end">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="readdir() end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FS Module/promiseApi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FS Module/promiseApi/index.js" afterDir="false" />
     </list>
@@ -81,7 +81,7 @@
       <updated>1746629752762</updated>
       <workItem from="1746629757242" duration="3683000" />
       <workItem from="1746633566313" duration="4943000" />
-      <workItem from="1746638593400" duration="11902000" />
+      <workItem from="1746638593400" duration="12855000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -171,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746650435047</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="readdir() end">
+      <option name="closed" value="true" />
+      <created>1746651319208</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1746651319208</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -190,6 +198,7 @@
     <MESSAGE value="rm() removing directories with force true end" />
     <MESSAGE value="writeFile" />
     <MESSAGE value="writeFile() end" />
-    <option name="LAST_COMMIT_MESSAGE" value="writeFile() end" />
+    <MESSAGE value="readdir() end" />
+    <option name="LAST_COMMIT_MESSAGE" value="readdir() end" />
   </component>
 </project>
