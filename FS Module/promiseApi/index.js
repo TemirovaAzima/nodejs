@@ -1,9 +1,8 @@
 import * as fs from "fs/promises"
 // const fs  = require('node:fs').promises
-
 try{
-    await fs.unlink('c:\\nodejs\\text\\text.txt')
-    console.log("nodejs file deleted")
+    await fs.mkdir("c:\\nodejs\\home",{recursive:true})
+    console.log('nodejs folder created')
 }catch(err){
     console.log(err)
 }
