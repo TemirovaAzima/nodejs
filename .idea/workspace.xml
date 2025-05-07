@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="rm() removing directories with force true end">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="writeFile() end">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FS Module/promiseApi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FS Module/promiseApi/index.js" afterDir="false" />
     </list>
@@ -81,7 +81,7 @@
       <updated>1746629752762</updated>
       <workItem from="1746629757242" duration="3683000" />
       <workItem from="1746633566313" duration="4943000" />
-      <workItem from="1746638593400" duration="10641000" />
+      <workItem from="1746638593400" duration="11902000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -163,7 +163,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746648816952</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="writeFile() end">
+      <option name="closed" value="true" />
+      <created>1746650435047</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1746650435047</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,6 +188,8 @@
     <MESSAGE value="unlink() (for deleting file not a dir) with promises&#10; end" />
     <MESSAGE value="mkdir() with recursive: true (it creates everything perfectly since it will create a folder along if it doesnt exist&#10; end" />
     <MESSAGE value="rm() removing directories with force true end" />
-    <option name="LAST_COMMIT_MESSAGE" value="rm() removing directories with force true end" />
+    <MESSAGE value="writeFile" />
+    <MESSAGE value="writeFile() end" />
+    <option name="LAST_COMMIT_MESSAGE" value="writeFile() end" />
   </component>
 </project>
