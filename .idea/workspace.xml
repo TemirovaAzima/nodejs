@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="Immediately invoked function expression">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="Modules - require end" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,6 +47,7 @@
   "keyToString": {
     "Node.js.foo.js.executor": "Run",
     "Node.js.index.js.executor": "Run",
+    "Node.js.index.mjs.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "javascript.nodejs.core.library.configured.version": "22.14.0",
@@ -78,7 +77,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746629752762</updated>
       <workItem from="1746629757242" duration="3683000" />
-      <workItem from="1746633566313" duration="2379000" />
+      <workItem from="1746633566313" duration="3039000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -104,7 +103,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746634350820</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Modules - require end">
+      <option name="closed" value="true" />
+      <created>1746636023339</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1746636023339</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -114,6 +121,7 @@
     <MESSAGE value="Repl(Read-Eval-Print-Loop)" />
     <MESSAGE value="Module Wrapper examples" />
     <MESSAGE value="Immediately invoked function expression" />
-    <option name="LAST_COMMIT_MESSAGE" value="Immediately invoked function expression" />
+    <MESSAGE value="Modules - require end" />
+    <option name="LAST_COMMIT_MESSAGE" value="Modules - require end" />
   </component>
 </project>
