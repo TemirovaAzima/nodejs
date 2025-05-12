@@ -1,5 +1,6 @@
 import * as fs from "fs/promises"
-import * as constants from "node:constants";
+// import * as constants from "node:constants";
+// import * as constants from "node:constants";
 // const fs  = require('node:fs').promises
 // try{
 //     await fs.writeFile("c:\\nodejs\\home\\text.txt",'hello man',"utf-8")
@@ -35,9 +36,35 @@ import * as constants from "node:constants";
 // }catch(err){
 //     console.log(err)
 // }
+// try{
+//      const stats = await fs.stat("c:\\nodejs\\text\\hello.text")
+//     console.log(stats)
+// }catch(err){
+//     console.log(err)
+// }
+// try{
+//     await fs.copyFile('c:\\nodejs\\bigData.txt', 'c:\\nodejs\\text\\bigData.txt')
+//     console.log('file copied')
+// }catch(err){
+//       console.log(err)
+// }
+// try{
+//     await fs.writeFile("c:\\nodejs\\bigData.txt",'hey new file is creating','utf8')
+//     console.log('file created')
+// }catch(err){
+//     console.log(err)
+// }
+// try {
+//    const data = await fs.stat('c:\\nodejs\\text\\bigData.txt')
+//     console.log(data)
+// }catch(err){
+//     console.log(err)
+// }
 try{
-    await fs.copyFile("c:\\nodejs\\hello.text",'c:\\nodejs\\text\\text.text',constants.COPYFILE_EXCL)
-    console.log('Asynchronously copies src to des')
+    const stats = await fs.stat('c:\\nodejs\\BigData.txt')
+    console.log(stats)
+    console.log(stats.isFile())
+    console.log(stats.isDirectory())
 }catch(err){
     console.log(err)
 }
