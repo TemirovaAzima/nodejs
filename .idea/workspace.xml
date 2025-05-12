@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="copyFile() ('Asynchronously copies src to des')">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/FS Module/promiseApi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FS Module/promiseApi/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="stat() method" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,7 +81,7 @@
       <workItem from="1746638593400" duration="15890000" />
       <workItem from="1746693340850" duration="630000" />
       <workItem from="1746694229682" duration="2309000" />
-      <workItem from="1747070909009" duration="723000" />
+      <workItem from="1747070909009" duration="1019000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -214,7 +211,15 @@
       <option name="project" value="LOCAL" />
       <updated>1746655071278</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="stat() method">
+      <option name="closed" value="true" />
+      <created>1747071824543</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1747071824543</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -238,6 +243,7 @@
     <MESSAGE value="readFile () with ascii" />
     <MESSAGE value="appendFile() adds extra data to existing file" />
     <MESSAGE value="copyFile() ('Asynchronously copies src to des')" />
-    <option name="LAST_COMMIT_MESSAGE" value="copyFile() ('Asynchronously copies src to des')" />
+    <MESSAGE value="stat() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="stat() method" />
   </component>
 </project>
