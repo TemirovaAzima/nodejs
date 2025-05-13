@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="URL Module end">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="HTTP Module with end() method">
+      <change beforePath="$PROJECT_DIR$/HTTP Module/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/HTTP Module/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +84,7 @@
       <workItem from="1746693340850" duration="630000" />
       <workItem from="1746694229682" duration="2309000" />
       <workItem from="1747070909009" duration="7245000" />
-      <workItem from="1747115005532" duration="14192000" />
+      <workItem from="1747115005532" duration="14495000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -318,14 +318,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747130915898</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="HTTP Module with end() method">
+      <option name="closed" value="true" />
+      <created>1747133234706</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1747133234706</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Path Module end" />
     <MESSAGE value="mkdir() with promises end" />
     <MESSAGE value="unlink() (for deleting file not a dir) with promises&#10; end" />
     <MESSAGE value="mkdir() with recursive: true (it creates everything perfectly since it will create a folder along if it doesnt exist&#10; end" />
@@ -350,6 +357,7 @@
     <MESSAGE value="checkStats end" />
     <MESSAGE value="OS Module end" />
     <MESSAGE value="URL Module end" />
-    <option name="LAST_COMMIT_MESSAGE" value="URL Module end" />
+    <MESSAGE value="HTTP Module with end() method" />
+    <option name="LAST_COMMIT_MESSAGE" value="HTTP Module with end() method" />
   </component>
 </project>
