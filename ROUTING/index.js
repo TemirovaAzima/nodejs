@@ -1,18 +1,21 @@
 import http from 'http'
 
 const server = http.createServer((req,res)=>{
-    if(req.url === '/'){
-        res.writeHead(200,{'Content-Type': 'text/html'})
-        res.end('<h1>Home</h1>')
-    }else if(req.url === '/about'){
-        res.writeHead(200,{'Content-Type': 'text/html'})
-        res.end('<h1>About</h1>')
-    }else if(req.url === '/contact'){
-        res.writeHead(200,{'Content-Type': 'text/html'})
-        res.end('<h1>Contact</h1>')
+    res.setHeader('Content-Type', 'application/json');
+    const cleanUrl = req.url.replace(/^\/+/,'')
+
+    if(cleanUrl === ''){
+        res.writeHead(200)
+        res.end(JSON.stringify({message:'Welcome to Home'}));
+    }else if(cleanUrl === 'about'){
+        res.writeHead(200)
+        res.end(JSON.stringify({message:'About us page', author: "Azima"}));
+    }else if(cleanUrl === 'contact'){
+        res.writeHead(200)
+        res.end(JSON.stringify({message: 'Contact page', email:'azima@example.com'}));
     }else{
-        res.writeHead(404,'Not Found', {'Content-Type': 'text/html'})
-        res.end('<h1>404 Not Found</h1>')
+        res.writeHead(404)
+        res.end(JSON.stringify({message:'404 Not Found', status: 404}));
     }
 })
 
