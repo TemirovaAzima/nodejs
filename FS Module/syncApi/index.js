@@ -1,4 +1,4 @@
-import * as fs from 'fs'
+import * as fs from 'fs/promises'
 // import * as path from "node:path";
 
 // fs.readFileSync('c:\\nodejs\\home\\image.text','utf8',(err,data)=>{
@@ -61,6 +61,12 @@ import * as fs from 'fs'
 // const text = await fs.readFile('c:\\nodejs\\home\\bigData.txt','utf8');
 // console.log(text);
 
-fs.writeFile('c:\\nodejs\\home\\bigData.txt','hello newData ,this hurts so bad when u dont know what to do ,seeing dads cry makes ur heart feel so different u dont what to express , but i know this is all gods plan , dont cry dad ill make ur happy just give me some time but please dont cry we will have a beautiful life even though everything is so hard right now it doesnt mean we have to leave each other ,please dont leave me , u say u love me but even though when u are crying i could not even say it back but in my deep my heart i love u so much , i cant stop crying it feels everybody in our family cant get along with each other even my mom i dont  understand my mom why she acts like that but i hope everything will be okay . ill promise i will make us rich so we wont have problem with money' ,{encoding:'utf8',flag:'w'},(err)=>{
-    if(err) throw err
-})
+// fs.writeFile('c:\\nodejs\\home\\bigData.txt','hello newData ,this hurts so bad when u dont know what to do ,seeing dads cry makes ur heart feel so different u dont what to express , but i know this is all gods plan , dont cry dad ill make ur happy just give me some time but please dont cry we will have a beautiful life even though everything is so hard right now it doesnt mean we have to leave each other ,please dont leave me , u say u love me but even though when u are crying i could not even say it back but in my deep my heart i love u so much , i cant stop crying it feels everybody in our family cant get along with each other even my mom i dont  understand my mom why she acts like that but i hope everything will be okay . ill promise i will make us rich so we wont have problem with money' ,{encoding:'utf8',flag:'w'},(err)=>{
+//     if(err) throw err
+// });
+async function saveUserInput(name) {
+    await fs.writeFile('c:\\nodejs\\home\\newLife.txt', `${name} new Life as he said he wants to start dont expect anything from me , should we just die so the problem we are having will disappear he told me that im sure u will achieve ur goals when he hugged and told me that i wll achieve all my goals but i even dare to hug him back . the last blow kiss he did felt different being desperate and no one helped u it feels like the life what is a life it is difficult to survive `,'utf8')
+    console.log('it hurts')
+}
+
+console.log(saveUserInput('Love'))
