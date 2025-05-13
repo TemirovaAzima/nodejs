@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="readFilesInFolder function by comparing callback,&#10;async\await">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="comparison between buffer and utf8">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FS Module/syncApi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FS Module/syncApi/index.js" afterDir="false" />
     </list>
@@ -85,7 +85,7 @@
       <workItem from="1746693340850" duration="630000" />
       <workItem from="1746694229682" duration="2309000" />
       <workItem from="1747070909009" duration="7245000" />
-      <workItem from="1747115005532" duration="992000" />
+      <workItem from="1747115005532" duration="2290000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -255,7 +255,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747078444376</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="comparison between buffer and utf8">
+      <option name="closed" value="true" />
+      <created>1747117469248</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1747117469248</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,6 +292,7 @@
     <MESSAGE value="readFile() and writeFile() with flag property end in callbackApi" />
     <MESSAGE value="readFileSync() end in syncApi" />
     <MESSAGE value="readFilesInFolder function by comparing callback,&#10;async\await" />
-    <option name="LAST_COMMIT_MESSAGE" value="readFilesInFolder function by comparing callback,&#10;async\await" />
+    <MESSAGE value="comparison between buffer and utf8" />
+    <option name="LAST_COMMIT_MESSAGE" value="comparison between buffer and utf8" />
   </component>
 </project>
