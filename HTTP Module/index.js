@@ -1,7 +1,10 @@
 import * as http from 'http';
 
 const server = http.createServer((req,res)=>{
-    res.write("<p>hey azima</p>")
+    res.statusCode = 404
+    res.statusMessage = 'Not Found'
+    res.write("<h1>hello </h1>")
+    res.end('Bye')
 })
 
-server.listen(8000,()=> console.log('Server started on port 8000'))
+server.listen(8000,()=> console.log('Server running on port 8000'))
