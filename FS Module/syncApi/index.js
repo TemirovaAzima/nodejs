@@ -1,5 +1,5 @@
 import * as fs from 'fs/promises'
-import * as path from "node:path";
+// import * as path from "node:path";
 
 // fs.readFileSync('c:\\nodejs\\home\\image.text','utf8',(err,data)=>{
 //     if(err) throw err;
@@ -34,24 +34,29 @@ import * as path from "node:path";
 // }
 
 // Reading only real files
+//
+// async function readFilesInFolder(folderPath){
+//     try{
+//         const items = await fs.readdir(folderPath);
+//
+//         for(const item of items){
+//             const fullPath = path.join(folderPath,item);
+//             const stat = await fs.stat(fullPath);
+//
+//             if(stat.isFile()){
+//                 const data = await fs.readFile(fullPath,'utf8')
+//                 console.log(`Contents of ${item}:`)
+//                 console.log(data)
+//             }
+//         }
+//     }catch(err){
+//         console.error('Error:',err)
+//     }
+// }
+//
+// console.log(readFilesInFolder('c:\\nodejs\\home'))
+const buffer = await fs.readFile('c:\\nodejs\\home\\bigData.txt');
+console.log(buffer);
 
-async function readFilesInFolder(folderPath){
-    try{
-        const items = await fs.readdir(folderPath);
-
-        for(const item of items){
-            const fullPath = path.join(folderPath,item);
-            const stat = await fs.stat(fullPath);
-
-            if(stat.isFile()){
-                const data = await fs.readFile(fullPath,'utf8')
-                console.log(`Contents of ${item}:`)
-                console.log(data)
-            }
-        }
-    }catch(err){
-        console.error('Error:',err)
-    }
-}
-
-console.log(readFilesInFolder('c:\\nodejs\\home'))
+const text = await fs.readFile('c:\\nodejs\\home\\bigData.txt','utf8');
+console.log(text);

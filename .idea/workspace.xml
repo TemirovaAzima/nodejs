@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="readFileSync() end in syncApi">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="readFilesInFolder function by comparing callback,&#10;async\await">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/FS Module/syncApi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FS Module/syncApi/index.js" afterDir="false" />
     </list>
@@ -84,7 +84,8 @@
       <workItem from="1746638593400" duration="15890000" />
       <workItem from="1746693340850" duration="630000" />
       <workItem from="1746694229682" duration="2309000" />
-      <workItem from="1747070909009" duration="6950000" />
+      <workItem from="1747070909009" duration="7245000" />
+      <workItem from="1747115005532" duration="992000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -246,7 +247,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747074536459</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="readFilesInFolder function by comparing callback,&#10;async\await">
+      <option name="closed" value="true" />
+      <created>1747078444376</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1747078444376</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -274,6 +283,7 @@
     <MESSAGE value="mkdir() created in callbackApi" />
     <MESSAGE value="readFile() and writeFile() with flag property end in callbackApi" />
     <MESSAGE value="readFileSync() end in syncApi" />
-    <option name="LAST_COMMIT_MESSAGE" value="readFileSync() end in syncApi" />
+    <MESSAGE value="readFilesInFolder function by comparing callback,&#10;async\await" />
+    <option name="LAST_COMMIT_MESSAGE" value="readFilesInFolder function by comparing callback,&#10;async\await" />
   </component>
 </project>
