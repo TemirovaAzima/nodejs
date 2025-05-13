@@ -8,6 +8,8 @@ const server = http.createServer((req,res)=>{
     }else if(req.url === '/contact'){
         res.end('<h1>Contact</h1>')
     }else{
+        res.statusCode = 404
+        res.statusMessage = 'Not Found'
         res.end('<h1>404</h1>')
     }
 })
