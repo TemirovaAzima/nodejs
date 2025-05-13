@@ -1,4 +1,5 @@
-import * as fs from 'fs'
+import * as fs from 'fs/promises'
+// import * as constants from "node:constants";
 // import * as path from "node:path";
 
 // fs.readFileSync('c:\\nodejs\\home\\image.text','utf8',(err,data)=>{
@@ -99,11 +100,47 @@ import * as fs from 'fs'
 //     console.log(data)
 // })
 
-console.log('1. Start reading file...');
-fs.readFile('c:\\nodejs\\home\\BigData.txt','utf8',(err,data)=>{
-    console.log("3. Finished reading:");
-    console.log(data)
-});
+// console.log('1. Start reading file...');
+// fs.readFile('c:\\nodejs\\home\\BigData.txt','utf8',(err,data)=>{
+//     console.log("3. Finished reading:");
+//     console.log(data)
+// });
+//
+// console.log('2. This runs while file is so loading...')
 
-console.log('2. This runs while file is so loading...')
+// Promise
+// try{
+//     await fs.copyFile('c:\\nodejs\\home\\bigData.txt','c:\\nodejs\\home\\New folder\\newBigData.txt',constants.COPYFILE_EXCL);
+//     console.log('the file was copies to destination')
+// }catch(err){
+//     console.error('The file could not be copied')
+// }
+// Callback
+// fs.copyFile('c:\\nodejs\\home\\bigData.txt','c:\\nodejs\\home\\New folder\\newBigData.txt',constants.COPYFILE_EXCL,(err)=>{
+//     if(err){
+//         console.error('Error: File already exists')
+//     }else{
+//         console.log('File copied successfully')
+//     }
+// });
 
+// fs.stat('c:\\nodejs\\home\\bigData.txt', (err,stats)=>{
+//     if(err) {
+//         console.error(err);
+//         return;
+//     }
+//     console.log(stats.isFile())
+// })
+// fs.stat('c:\\nodejs\\\\home\\\\bigData.txt',(err,stats)=>{
+//     if(err) throw err;
+//     console.log('Is File?',stats.isFile());
+//     console.log("Size:",stats.size,"bytes");
+//     console.log('Created at:',stats.birthtime);
+// })
+
+async function checkStats(){
+    const stats = await fs.stat('c:\\nodejs\\\\home\\\\New folder');
+    console.log(stats.isDirectory());
+}
+
+console.log(checkStats())
