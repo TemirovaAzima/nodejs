@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="using async function">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="Callback &amp;&amp; Promises">
       <change beforePath="$PROJECT_DIR$/FS Module/syncApi/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/FS Module/syncApi/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,7 +84,7 @@
       <workItem from="1746693340850" duration="630000" />
       <workItem from="1746694229682" duration="2309000" />
       <workItem from="1747070909009" duration="7245000" />
-      <workItem from="1747115005532" duration="4197000" />
+      <workItem from="1747115005532" duration="4600000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -278,14 +278,21 @@
       <option name="project" value="LOCAL" />
       <updated>1747119708216</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="Callback &amp;&amp; Promises">
+      <option name="closed" value="true" />
+      <created>1747120688822</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1747120688822</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Repl(Read-Eval-Print-Loop)" />
     <MESSAGE value="Module Wrapper examples" />
     <MESSAGE value="Immediately invoked function expression" />
     <MESSAGE value="Modules - require end" />
@@ -310,6 +317,7 @@
     <MESSAGE value="comparison between buffer and utf8" />
     <MESSAGE value="instead of using appendFile use flag: a for append flag:w for overwrite" />
     <MESSAGE value="using async function" />
-    <option name="LAST_COMMIT_MESSAGE" value="using async function" />
+    <MESSAGE value="Callback &amp;&amp; Promises" />
+    <option name="LAST_COMMIT_MESSAGE" value="Callback &amp;&amp; Promises" />
   </component>
 </project>

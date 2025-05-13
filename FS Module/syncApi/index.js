@@ -1,4 +1,4 @@
-import * as fs from 'fs/promises'
+import * as fs from 'fs'
 // import * as path from "node:path";
 
 // fs.readFileSync('c:\\nodejs\\home\\image.text','utf8',(err,data)=>{
@@ -79,13 +79,31 @@ import * as fs from 'fs/promises'
 //     }
 // })
 // Promises
-async function writeToFile(){
-    try{
-        await fs.writeFile('c:\\nodejs\\home\\newLifeAsSaid','Hello New life','utf8');
-        console.log('File written successfully:')
-    }catch(err){
-        console.error('Error writing file:',err)
-    }
-}
+// async function writeToFile(){
+//     try{
+//         await fs.writeFile('c:\\nodejs\\home\\newLifeAsSaid','Hello New life','utf8');
+//         console.log('File written successfully:')
+//     }catch(err){
+//         console.error('Error writing file:',err)
+//     }
+// }
+//
+// console.log(writeToFile())
 
-console.log(writeToFile())
+// fs.writeFile('c:\\nodejs\\home\\test.txt','Hello, world!','utf16le',(err)=>{
+//     if(err) console.error(err)
+// });
+
+// fs.readFile('c:\\nodejs\\home\\test.txt','ascii',(err,data)=>{
+//     if(err) console.error(err)
+//     console.log(data)
+// })
+
+console.log('1. Start reading file...');
+fs.readFile('c:\\nodejs\\home\\BigData.txt','utf8',(err,data)=>{
+    console.log("3. Finished reading:");
+    console.log(data)
+});
+
+console.log('2. This runs while file is so loading...')
+
