@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="return JSON instead of HTML and using replace method in routing">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="Serving pages in Nodejs">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -87,7 +87,7 @@
       <workItem from="1747070909009" duration="7245000" />
       <workItem from="1747115005532" duration="18108000" />
       <workItem from="1747137495894" duration="8560000" />
-      <workItem from="1747247697562" duration="1933000" />
+      <workItem from="1747247697562" duration="2886000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -409,7 +409,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747151800172</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="Serving pages in Nodejs">
+      <option name="closed" value="true" />
+      <created>1747249684958</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1747249684958</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -427,7 +435,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="copyFile() ('Asynchronously copies src to des')" />
     <MESSAGE value="stat() method" />
     <MESSAGE value="mkdir() created in callbackApi" />
     <MESSAGE value="readFile() and writeFile() with flag property end in callbackApi" />
@@ -452,6 +459,7 @@
     <MESSAGE value="the rest with status code" />
     <MESSAGE value="fixing status code from 202 to 404" />
     <MESSAGE value="return JSON instead of HTML and using replace method in routing" />
-    <option name="LAST_COMMIT_MESSAGE" value="return JSON instead of HTML and using replace method in routing" />
+    <MESSAGE value="Serving pages in Nodejs" />
+    <option name="LAST_COMMIT_MESSAGE" value="Serving pages in Nodejs" />
   </component>
 </project>
