@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="fixing status code from 202 to 404">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="return JSON instead of HTML and using replace method in routing">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ROUTING/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/ROUTING/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +86,8 @@
       <workItem from="1746694229682" duration="2309000" />
       <workItem from="1747070909009" duration="7245000" />
       <workItem from="1747115005532" duration="18108000" />
-      <workItem from="1747137495894" duration="7825000" />
+      <workItem from="1747137495894" duration="8560000" />
+      <workItem from="1747247697562" duration="1933000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -401,7 +401,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747150425374</updated>
     </task>
-    <option name="localTasksCounter" value="40" />
+    <task id="LOCAL-00040" summary="return JSON instead of HTML and using replace method in routing">
+      <option name="closed" value="true" />
+      <created>1747151800172</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1747151800172</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -419,7 +427,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="appendFile() adds extra data to existing file" />
     <MESSAGE value="copyFile() ('Asynchronously copies src to des')" />
     <MESSAGE value="stat() method" />
     <MESSAGE value="mkdir() created in callbackApi" />
@@ -444,6 +451,7 @@
     <MESSAGE value="routing with if/else" />
     <MESSAGE value="the rest with status code" />
     <MESSAGE value="fixing status code from 202 to 404" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixing status code from 202 to 404" />
+    <MESSAGE value="return JSON instead of HTML and using replace method in routing" />
+    <option name="LAST_COMMIT_MESSAGE" value="return JSON instead of HTML and using replace method in routing" />
   </component>
 </project>
