@@ -1,11 +1,16 @@
-(function(){
-    console.log('hello')
-})();
+// (function(){
+//     console.log('hello')
+// })();
+//
+// (()=>{
+//     console.log('hey there')
+// })();
+//
+// (async ()=>{
+//     console.log('nice to see you')
+// })()
 
-(()=>{
-    console.log('hey there')
-})();
+const event = new Date('August 19, 1975 23:15:30 UTC');
 
-(async ()=>{
-    console.log('nice to see you')
-})()
+const jsonDate = event.toJSON()
+console.log(jsonDate.toString())
