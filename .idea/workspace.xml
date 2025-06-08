@@ -4,9 +4,32 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="error crashes Nodejs without err listener">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="errorMonitor end">
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/.bin/node" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/.bin/node.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/.bin/node.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node-bin-setup/.github/dependabot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node-bin-setup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node-bin-setup/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/bin/node" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/bin/node.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/installArchSpecificPackage.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/.bin/node" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/.bin/node.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/.bin/node.ps1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/.package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/node-bin-setup/.github/dependabot.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/node-bin-setup/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/node-bin-setup/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/node-win-x64/bin/node.exe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/node_modules/node-win-x64/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Event/node_modules/node/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Event/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Event/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Event/node_modules/.package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Event/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Event/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Event/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Event/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,23 +116,7 @@
       <workItem from="1747247697562" duration="4424000" />
       <workItem from="1749130344825" duration="120000" />
       <workItem from="1749141100885" duration="3828000" />
-      <workItem from="1749365251090" duration="9034000" />
-    </task>
-    <task id="LOCAL-00006" summary="Path Module end">
-      <option name="closed" value="true" />
-      <created>1746639850318</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1746639850318</updated>
-    </task>
-    <task id="LOCAL-00007" summary="mkdir() with promises end">
-      <option name="closed" value="true" />
-      <created>1746644343894</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1746644343894</updated>
+      <workItem from="1749365251090" duration="12193000" />
     </task>
     <task id="LOCAL-00008" summary="unlink() (for deleting file not a dir) with promises&#10; end">
       <option name="closed" value="true" />
@@ -487,7 +494,23 @@
       <option name="project" value="LOCAL" />
       <updated>1749375852326</updated>
     </task>
-    <option name="localTasksCounter" value="55" />
+    <task id="LOCAL-00055" summary="managing error by preventing from crashing Nodejs">
+      <option name="closed" value="true" />
+      <created>1749376324425</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1749376324425</updated>
+    </task>
+    <task id="LOCAL-00056" summary="errorMonitor end">
+      <option name="closed" value="true" />
+      <created>1749379297164</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1749379297164</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,8 +528,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="HTTP Module with end() method" />
-    <MESSAGE value="HTTP Module with write() method" />
     <MESSAGE value="HTTP Module with statusCode and statusMessage end" />
     <MESSAGE value="using writeHead() instead of statusCode and statusMessage" />
     <MESSAGE value="setHeader() with json" />
@@ -530,6 +551,8 @@
     <MESSAGE value="setImmediate inside on() listener" />
     <MESSAGE value="emit() with different example" />
     <MESSAGE value="error crashes Nodejs without err listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="error crashes Nodejs without err listener" />
+    <MESSAGE value="managing error by preventing from crashing Nodejs" />
+    <MESSAGE value="errorMonitor end" />
+    <option name="LAST_COMMIT_MESSAGE" value="errorMonitor end" />
   </component>
 </project>
