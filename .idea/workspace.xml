@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="setImmediate inside on() listener">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Event/index.js" afterDir="false" />
-    </list>
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="emit() with different example" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -93,15 +90,7 @@
       <workItem from="1747247697562" duration="4424000" />
       <workItem from="1749130344825" duration="120000" />
       <workItem from="1749141100885" duration="3828000" />
-      <workItem from="1749365251090" duration="7664000" />
-    </task>
-    <task id="LOCAL-00004" summary="Modules - require end">
-      <option name="closed" value="true" />
-      <created>1746636023339</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1746636023339</updated>
+      <workItem from="1749365251090" duration="8360000" />
     </task>
     <task id="LOCAL-00005" summary="Modules - import and export end">
       <option name="closed" value="true" />
@@ -487,7 +476,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749374495503</updated>
     </task>
-    <option name="localTasksCounter" value="53" />
+    <task id="LOCAL-00053" summary="emit() with different example">
+      <option name="closed" value="true" />
+      <created>1749375135976</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1749375135976</updated>
+    </task>
+    <option name="localTasksCounter" value="54" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +502,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="OS Module end" />
     <MESSAGE value="URL Module end" />
     <MESSAGE value="HTTP Module with end() method" />
     <MESSAGE value="HTTP Module with write() method" />
@@ -530,6 +526,7 @@
     <MESSAGE value="once() listener with emit() with explained comments" />
     <MESSAGE value="using extends for EventEmitter()" />
     <MESSAGE value="setImmediate inside on() listener" />
-    <option name="LAST_COMMIT_MESSAGE" value="setImmediate inside on() listener" />
+    <MESSAGE value="emit() with different example" />
+    <option name="LAST_COMMIT_MESSAGE" value="emit() with different example" />
   </component>
 </project>

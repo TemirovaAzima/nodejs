@@ -1,14 +1,7 @@
-import {EventEmitter} from 'node:events';
+import {EventEmitter} from 'events';
+class MyEventEmitter extends EventEmitter {}
 
-// class is always in PascalCase because it will indicate that is not a function or a simple variable
+const myEmitter = new MyEventEmitter();
 
-class MyEmitter extends EventEmitter {}
-const myEmitter = new MyEmitter();
-let m = 0
-myEmitter.on('event', () => {
-    console.log(m++)
-})
-
-myEmitter.emit('event')
-myEmitter.emit('event')
-myEmitter.emit('event')
+myEmitter.emit('error',new Error("whoops!"));
+// throws and crashes Nodejs
