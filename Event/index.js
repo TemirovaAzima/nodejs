@@ -1,20 +1,14 @@
 import {EventEmitter} from 'node:events';
 
-class MyEmitter extends EventEmitter {
-}
+// class is always in PascalCase because it will indicate that is not a function or a simple variable
 
-console.log(EventEmitter)
-const myEmitter = new MyEmitter()
-
+class MyEmitter extends EventEmitter {}
+const myEmitter = new MyEmitter();
+let m = 0
 myEmitter.on('event', () => {
-    console.log('Not asynchronous')
+    console.log(m++)
 })
-myEmitter.on('event', (a, b) => {
-    setImmediate(() => {
-        console.log(`this happen asynchronously ${a},${b}`)
-    })
-    console.log("checking")
-})
-console.log('start')
-myEmitter.emit('event', 'a', 'b')
-console.log('end')
+
+myEmitter.emit('event')
+myEmitter.emit('event')
+myEmitter.emit('event')
