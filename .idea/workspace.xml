@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="on() listener with emit() with explained comments">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="once() listener with emit() with explained comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Event/index.js" afterDir="false" />
     </list>
@@ -93,15 +93,7 @@
       <workItem from="1747247697562" duration="4424000" />
       <workItem from="1749130344825" duration="120000" />
       <workItem from="1749141100885" duration="3828000" />
-      <workItem from="1749365251090" duration="4402000" />
-    </task>
-    <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
-      <option name="closed" value="true" />
-      <created>1746631408895</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1746631408895</updated>
+      <workItem from="1749365251090" duration="5710000" />
     </task>
     <task id="LOCAL-00002" summary="Module Wrapper examples">
       <option name="closed" value="true" />
@@ -487,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749368352019</updated>
     </task>
-    <option name="localTasksCounter" value="50" />
+    <task id="LOCAL-00050" summary="once() listener with emit() with explained comments">
+      <option name="closed" value="true" />
+      <created>1749371853621</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1749371853621</updated>
+    </task>
+    <option name="localTasksCounter" value="51" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -505,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Callback &amp;&amp; Promises" />
     <MESSAGE value="async behaviour" />
     <MESSAGE value="checkStats end" />
     <MESSAGE value="OS Module end" />
@@ -530,6 +529,7 @@
     <MESSAGE value="non-blocking code example" />
     <MESSAGE value="null and undefined checking" />
     <MESSAGE value="on() listener with emit() with explained comments" />
-    <option name="LAST_COMMIT_MESSAGE" value="on() listener with emit() with explained comments" />
+    <MESSAGE value="once() listener with emit() with explained comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="once() listener with emit() with explained comments" />
   </component>
 </project>
