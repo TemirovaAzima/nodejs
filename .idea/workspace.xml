@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="null and undefined checking">
+    <list default="true" id="f15f4273-bb36-4768-8d51-1f2fad05f699" name="Changes" comment="on() listener with emit() with explained comments">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Event/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/Event/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <workItem from="1747247697562" duration="4424000" />
       <workItem from="1749130344825" duration="120000" />
       <workItem from="1749141100885" duration="3828000" />
-      <workItem from="1749365251090" duration="2980000" />
+      <workItem from="1749365251090" duration="4402000" />
     </task>
     <task id="LOCAL-00001" summary="Repl(Read-Eval-Print-Loop)">
       <option name="closed" value="true" />
@@ -478,7 +479,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749145369018</updated>
     </task>
-    <option name="localTasksCounter" value="49" />
+    <task id="LOCAL-00049" summary="on() listener with emit() with explained comments">
+      <option name="closed" value="true" />
+      <created>1749368352019</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1749368352019</updated>
+    </task>
+    <option name="localTasksCounter" value="50" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -496,7 +505,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="using async function" />
     <MESSAGE value="Callback &amp;&amp; Promises" />
     <MESSAGE value="async behaviour" />
     <MESSAGE value="checkStats end" />
@@ -521,6 +529,7 @@
     <MESSAGE value="Block code example" />
     <MESSAGE value="non-blocking code example" />
     <MESSAGE value="null and undefined checking" />
-    <option name="LAST_COMMIT_MESSAGE" value="null and undefined checking" />
+    <MESSAGE value="on() listener with emit() with explained comments" />
+    <option name="LAST_COMMIT_MESSAGE" value="on() listener with emit() with explained comments" />
   </component>
 </project>
