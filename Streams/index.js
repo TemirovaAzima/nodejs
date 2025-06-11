@@ -1,16 +1,21 @@
 import fs from 'fs';
 
-// For small data, doing this is faster and easier.
-const content = fs.readFileSync('c:\\nodejs\\text\\text.text','utf8');
-
-console.log(content.toString());
-// But for big files(like 1GB+), that could crash your server. That's where streams are much safer
-const stream = fs.createReadStream('c:\\nodejs\\text\\text.text','utf8');
-
-stream.on('data',(chunk)=>{
-    console.log('Received chunk',chunk.toString());
+// Examples of Creating/ Adding / Managing Data with Streams
+// reading
+const reader = fs.createReadStream('c:\\nodejs\\text\\text.text');
+reader.on('data',(chunk)=>{
+    console.log('Read:',chunk);
 });
 
-stream.on('end',()=>{
-    console.log('Finished reading');
-});
+
+// writing
+const writer = fs.createWriteStream('c:\\nodejs\\text\\text.text');
+writer.write('This is a new line\n');
+writer.end();
+console.log(writer)
+
+// piping(managing)
+const reading = fs.createReadStream('c:\\nodejs\\text\\text.text');
+const writing = fs.createWriteStream('c:\\nodejs\\text\\newText.text');
+reading.pipe(writing) // read and write in one flow
+console.log(writing)
